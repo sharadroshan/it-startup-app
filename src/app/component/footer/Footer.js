@@ -14,7 +14,7 @@ const Footer = () => {
               "Testimonials",
               "Careers",
               "Blog",
-              "Contact Us",
+              "Contact Us ",
               "Site Map",
             ].map((item, index) => (
               <li key={index}>
