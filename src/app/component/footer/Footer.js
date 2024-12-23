@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Useful Resources Section */}
         <div className="space-y-6">
-          <h3 className="font-bold text-2xl">Useful Resources</h3>
+          <h3 className="font-bold text-2xl ">Useful Resources</h3>
           <ul className="space-y-2">
             {[
               "About Prometteur",
@@ -18,7 +18,7 @@ const Footer = () => {
               "Site Map",
             ].map((item, index) => (
               <li key={index}>
-                <a href="#" className="hover:text-gray-300 transition duration-300">
+                <a href="#" className="hover:text-gray-300 transition duration-200">
                   {item}
                 </a>
               </li>
