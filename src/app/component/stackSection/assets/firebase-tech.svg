@@ -1,0 +1,38 @@
+<svg id="firebase-seeklogo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.969" height="42.515" viewBox="0 0 30.969 42.515">
+  <defs>
+    <filter id="Path_78321">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-opacity="0.059" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_78324">
+      <feOffset dx="1" dy="-9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-opacity="0.09" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Path_78319" data-name="Path 78319" d="M0,34.316l.257-.36,12.175-23.1.026-.245L7.091.529A1,1,0,0,0,5.228.843Z" transform="translate(0 0)" fill="#ffc24a"/>
+  <g id="Group_105512" data-name="Group 105512" transform="translate(0.152 0.158)">
+    <path id="Path_78320" data-name="Path 78320" d="M1.253,35.184l.195-.38L13.495,11.946,8.141,1.824a.9.9,0,0,0-1.721.313Z" transform="translate(-1.253 -1.301)" fill="#ffa712"/>
+    <g transform="matrix(1, 0, 0, 1, -0.15, -0.16)" filter="url(#Path_78321)">
+      <path id="Path_78321-2" data-name="Path 78321" d="M1.253,35.184l.195-.38L13.495,11.946,8.141,1.824a.9.9,0,0,0-1.721.313Z" transform="translate(-1.1 -1.14)" fill="#fff"/>
+    </g>
+  </g>
+  <path id="Path_78322" data-name="Path 78322" d="M106.372,61.491l4-4.093-4-7.631a1.03,1.03,0,0,0-1.814,0l-2.136,4.073v.347Z" transform="translate(-90.002 -43.256)" fill="#f4bd62"/>
+  <g id="Group_105513" data-name="Group 105513" transform="translate(12.458 6.123)">
+    <path id="Path_78323" data-name="Path 78323" d="M106.581,62.439l3.885-3.979-3.885-7.4a.9.9,0,0,0-1.63-.072L102.8,55.128l-.064.211Z" transform="translate(-102.739 -50.499)" fill="#ffa50e"/>
+    <g transform="matrix(1, 0, 0, 1, -12.46, -6.12)" filter="url(#Path_78324)">
+      <path id="Path_78324-2" data-name="Path 78324" d="M106.581,62.439l3.885-3.979-3.885-7.4a.9.9,0,0,0-1.63-.072L102.8,55.128l-.064.211Z" transform="translate(-90.28 -44.38)" fill="#fff"/>
+    </g>
+  </g>
+  <path id="Path_78325" data-name="Path 78325" d="M0,110.858l.117-.117.424-.172L16.119,95.048l.2-.537L12.43,87.1Z" transform="translate(0 -76.543)" fill="#f6820c"/>
+  <path id="Path_78326" data-name="Path 78326" d="M16.87,105l14.1-7.863-4.026-24.8a.964.964,0,0,0-1.633-.526L0,97.171,14.019,105a2.925,2.925,0,0,0,2.851,0" transform="translate(0 -62.855)" fill="#fde068"/>
+  <path id="Path_78327" data-name="Path 78327" d="M31.975,97.926l-4-24.608a.846.846,0,0,0-1.468-.536L1.289,97.979l13.864,7.749a2.9,2.9,0,0,0,2.829,0Z" transform="translate(-1.133 -63.712)" fill="#fcca3f"/>
+  <path id="Path_78328" data-name="Path 78328" d="M16.87,288.8a2.925,2.925,0,0,1-2.851,0L.113,281.081,0,281.2l14.018,7.827a2.926,2.926,0,0,0,2.851,0l14.1-7.863-.035-.212Z" transform="translate(0 -246.884)" fill="#eeab37"/>
+</svg>
