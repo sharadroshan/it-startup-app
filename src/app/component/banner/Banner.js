@@ -109,13 +109,13 @@ function Banner() {
                     <input
                       id="country_code"
                       type="text"
-                      className="px-4 py-3 text-black w-20 bg-gray-100 border border-primary"
+                      className="px-4 py-3 text-black w-20 bg-gray-100 border border-primary focus:outline-none"
                       placeholder="+91"
                     />
                     <input
                       id="phone_number"
                       type="text"
-                      className="px-4 py-3 mt-2 sm:mt-0 sm:ml-2 text-black w-full bg-gray-100 border border-primary"
+                      className="px-4 py-3 mt-2 sm:mt-0 sm:ml-2 text-black w-full bg-gray-100 border border-primary focus:outline-none"
                       maxLength="15"
                       placeholder="Phone Number"
                     />
@@ -144,7 +144,7 @@ function Banner() {
                     <input
                       id="name"
                       type="text"
-                      className="px-4 py-3 mt-2 sm:mt-0 sm:ml-2 text-black w-full bg-gray-100 border border-primary"
+                      className="px-4 py-3 mt-2 sm:mt-0 sm:ml-2 text-black w-full bg-gray-100 border border-primary focus:outline-none"
                       placeholder="Your Name"
                     />
                   </div>
@@ -172,7 +172,7 @@ function Banner() {
                     <input
                       id="email"
                       type="email"
-                      className="px-4 py-3 mt-2 sm:mt-0 sm:ml-2 text-black w-full bg-gray-100 border border-primary"
+                      className="px-4 py-3 mt-2 sm:mt-0 sm:ml-2 text-black w-full bg-gray-100 border border-primary focus:outline-none"
                       placeholder="Email Id"
                     />
                   </div>
