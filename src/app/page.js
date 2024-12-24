@@ -14,8 +14,8 @@ import Industries from "./component/industries/Industries";
 
 export default function Home() {
   return (
-    <div className="">
-      {/* <Header />
+    <main className="">
+      <Header />
       <Banner />
       <PrometteurMilestones />
       <Stories />
@@ -26,17 +26,7 @@ export default function Home() {
       <WeWorkWith />
       <PartnershipModel />
       <WhyChoose />
-      <Footer /> */}
-      <div className="p-4">
-        <h2 className="text-2xl font-semibold text-gray-800">Card Title</h2>
-        <p className="mt-2 text-gray-600">
-          This is a simple card component. It contains an image, a title, a
-          description, and a button.
-        </p>
-        <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-          Click Me
-        </button>
-      </div>
-    </div>
+      <Footer />
+    </main>
   );
 }
