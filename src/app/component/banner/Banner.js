@@ -98,7 +98,7 @@ function Banner() {
                 }}
               />
               <h3 className="text-lg mt-5 sm:text-xl">
-                Services for Modern Enterprises and Innovative Startups
+                Services for  Modern Enterprises and Innovative Startups
               </h3>
             </div>
             <div className="pb-3 mt-5">
