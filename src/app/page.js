@@ -15,7 +15,7 @@ import Industries from "./component/industries/Industries";
 export default function Home() {
   return (
     <div className="">
-      {/* <Header />
+      <Header />
       <Banner />
       <PrometteurMilestones />
       <Stories />
@@ -26,8 +26,7 @@ export default function Home() {
       <WeWorkWith />
       <PartnershipModel />
       <WhyChoose />
-      <Footer /> */}
-      <h1 className="text-3xl text-red-500">Hello World</h1>
+      <Footer />
     </div>
   );
 }
