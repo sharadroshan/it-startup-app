@@ -1,8 +1,10 @@
-import Image from 'next/image';
+import Image from "next/image";
+import goodfirms from "../../assets/goodfirms.png";
+import Clutch from "../../assets/clutch.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-primary via-blue-500 to-primaryHover text-white py-16">
+    <footer className="bg-white text-black py-16">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Useful Resources Section */}
         <div className="space-y-6">
@@ -18,7 +20,10 @@ const Footer = () => {
               "Site Map",
             ].map((item, index) => (
               <li key={index}>
-                <a href="#" className="hover:text-gray-300 transition duration-200">
+                <a
+                  href="#"
+                  className="hover:text-gray-500 transition duration-200"
+                >
                   {item}
                 </a>
               </li>
@@ -39,7 +44,10 @@ const Footer = () => {
               "IoT Solutions",
             ].map((item, index) => (
               <li key={index}>
-                <a href="#" className="hover:text-gray-300 transition duration-300">
+                <a
+                  href="#"
+                  className="hover:text-gray-500 transition duration-300"
+                >
                   {item}
                 </a>
               </li>
@@ -57,7 +65,11 @@ const Footer = () => {
               { flag: "🇩🇪", label: "Germany" },
               { flag: "🇫🇷", label: "France" },
             ].map((country, index) => (
-              <span key={index} title={country.label} className="hover:scale-110 transform transition">
+              <span
+                key={index}
+                title={country.label}
+                className="hover:scale-110 transform transition"
+              >
                 {country.flag}
               </span>
             ))}
@@ -69,10 +81,16 @@ const Footer = () => {
           </div>
           <div className="flex items-center space-x-4 mt-6">
             {[
-              { src: "/path-to-goodfirms-logo.png", alt: "GoodFirms Logo" },
-              { src: "/path-to-clutch-logo.png", alt: "Clutch Logo" },
+              { src: goodfirms, alt: "GoodFirms Logo" },
+              { src: Clutch, alt: "Clutch Logo" },
             ].map((logo, index) => (
-              <Image key={index} src={logo.src} alt={logo.alt} width={100} height={50} />
+              <Image
+                key={index}
+                src={logo.src} // Directly use the imported image object, not inside an object
+                alt={logo.alt}
+                width={100}
+                height={50}
+              />
             ))}
           </div>
         </div>
@@ -82,13 +100,19 @@ const Footer = () => {
           <h3 className="font-bold text-2xl">Contact Us</h3>
           <ul className="space-y-2">
             {[
-              { label: "Email Support", href: "mailto:support@prometteursolutions.com" },
+              {
+                label: "Email Support",
+                href: "mailto:support@prometteursolutions.com",
+              },
               { label: "Call Us: +91 8087555678", href: "tel:+918087555678" },
               { label: "Live Chat", href: "#" },
               { label: "FAQs", href: "#" },
             ].map((contact, index) => (
               <li key={index}>
-                <a href={contact.href} className="hover:text-gray-300 transition duration-300">
+                <a
+                  href={contact.href}
+                  className="hover:text-gray-500 transition duration-300"
+                >
                   {contact.label}
                 </a>
               </li>
@@ -106,7 +130,7 @@ const Footer = () => {
               <a
                 key={index}
                 href="#"
-                className="hover:text-gray-300 transition duration-300"
+                className="hover:text-gray-500 transition duration-300"
                 aria-label={platform}
               >
                 <i className={`fab fa-${platform}`}></i>
@@ -118,7 +142,10 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="mt-12 border-t border-primary pt-6 text-center text-sm">
-        <p>&copy; {new Date().getFullYear()} Prometteur Solutions. All Rights Reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} Prometteur Solutions. All Rights
+          Reserved.
+        </p>
       </div>
     </footer>
   );
