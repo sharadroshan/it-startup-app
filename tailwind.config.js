@@ -10,10 +10,19 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primary:"#4ecdc4",
-        primaryHover:"#3bb4a0"
+        primary: "#4ecdc4",
+        primaryHover: "#3bb4a0",
       },
-
+      container: {
+        center: true, // Centers the container horizontally
+        padding: {
+          DEFAULT: "1rem", // Default padding for all screens
+          sm: "2rem", // Padding for small screens
+          lg: "4rem", // Padding for large screens
+          xl: "5rem", // Padding for extra-large screens
+          "2xl": "6rem", // Padding for 2xl screens
+        },
+      },
     },
   },
   plugins: [],
