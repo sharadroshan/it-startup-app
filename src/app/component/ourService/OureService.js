@@ -61,7 +61,7 @@ function OureService() {
   return (
     <div>
       <div className="bg-[#ecf2f6] pt-10 pb-20">
-        <div className="container mx-auto">
+        <div className="container">
           <div className="text-center mb-10">
             <h1 className="text-6xl font-bold text-black">
               Our <span className="text-primary">Services</span>

@@ -15,12 +15,12 @@ module.exports = {
       },
       container: {
         center: true, // Centers the container horizontally
-        padding: {
-          DEFAULT: "1rem", // Default padding for all screens
-          sm: "2rem", // Padding for small screens
-          lg: "4rem", // Padding for large screens
-          xl: "5rem", // Padding for extra-large screens
-          "2xl": "6rem", // Padding for 2xl screens
+        padding: "2rem", // Adds padding to the container
+        screens: {
+          sm: "100%",
+          md: "720px",
+          lg: "960px",
+          xl: "1200px",
         },
       },
     },
