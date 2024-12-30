@@ -25,7 +25,7 @@ export default function Home() {
       <Industries />
       <WeWorkWith />
       <PartnershipModel />
-      <WhyChoose />
+      <WhyChoose /> 
       <Footer />
     </div>
   );
